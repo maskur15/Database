@@ -1,0 +1,1 @@
+\copy (select * from person left join car on car.id = person.car_id ) to 'E:\Python/result.csv' delimiter ',' csv header;
